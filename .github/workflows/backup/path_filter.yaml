@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'my-app/**'
+      - '!my-app/new.txt'
 
 
 jobs:
